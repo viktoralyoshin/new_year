@@ -10,5 +10,5 @@ func main() {
 
 	until := time.Until(newYear).Hours() / 24
 
-	fmt.Println(int(until))
+	fmt.Println(int(until) + 1)
 }
