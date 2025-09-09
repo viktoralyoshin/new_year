@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	newYear := time.Date(2026, time.January, 1, 0, 0, 0, 0, time.Local)
+	newYear := time.Date(time.Now().Year()+1, time.January, 1, 0, 0, 0, 0, time.Local)
 
 	until := time.Until(newYear).Hours() / 24
 
